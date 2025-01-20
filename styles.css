@@ -1,17 +1,13 @@
-
-/* Your CSS Code here. */
 .holder {
   display: grid;
   grid-template-rows: repeat(2, 1fr); /* 2 equal rows */
   grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
   width: 200px;
   height: 200px;
-  gap: 10px; 
 }
 
 .item {
-  background-color: lightgray; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: lightblue; /* Styling for items */
+  padding: 10px;
+  text-align: center;
 }
